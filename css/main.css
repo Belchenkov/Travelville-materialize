@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+.nav-wrapper {
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.side-nav {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.logo-img {
+    padding-top: 10px;
+    display: inline-block;
+}
