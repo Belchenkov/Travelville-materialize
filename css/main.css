@@ -17,3 +17,29 @@
 .slides {
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
 }
+
+.slider .btn {
+    margin-top: 20px;
+}
+.section-search {
+    height: 200px;
+}
+
+.section-search h3 {
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.section-search input {
+    padding: 5px!important;
+    border-radius: 5px!important;
+    font-size: 18px!important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important;
+}
+
+.autocomplete-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
