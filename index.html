@@ -14,7 +14,7 @@
   <title>Travelville</title>
 </head>
 
-<body>
+<body id="home" class="scrollspy">
   <div class="navbar-fixed">
     <nav class="deep-orange accent-2">
       <div class="container">
@@ -83,7 +83,7 @@
   </section>
 
   <!-- Section: Search -->
-  <section class="section section-search deep-orange accent-2 white-text center">
+  <section id="search" class="section scrollspy section-search deep-orange accent-2 white-text center">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -131,7 +131,7 @@
   </section>
 
   <!-- Section: Popular -->
-  <section class="section section-popular">
+  <section id="popular" class="section scrollspy section-popular">
     <div class="container">
       <div class="row">
         <h4 class="center"><span class="deep-orange-text">Popular</span> Places</h4>
@@ -207,7 +207,7 @@
   </section>
 
   <!-- Section: Gallery -->
-  <section class="section section-gallery">
+  <section id="gallery" class="section scrollspy section-gallery">
     <div class="container">
         <h4 class="center">
             <span class="deep-orange-text">Photo</span> Gallery
@@ -306,7 +306,7 @@
   </section>
 
   <!-- Section: Contact -->
-   <section class="section section-contact">
+   <section id="contact" class="section scrollspy section-contact">
        <div class="container">
            <div class="row">
                <div class="col s12 m6">
@@ -384,6 +384,9 @@
               "The Bahamas": null,
           }
       });
+
+      // Init Scrollspy
+        $('.scrollspy').scrollSpy();
     });
   </script>
 </body>
