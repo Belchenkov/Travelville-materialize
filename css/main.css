@@ -25,7 +25,9 @@
     height: 200px;
 }
 
-.section-search h3 {
+.section-search h3,
+.section-follow h4 {
+    color: #fff;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
     font-family: 'Permanent Marker', cursive;
 }
@@ -36,6 +38,14 @@
     font-size: 18px!important;
     width: 90% !important;
     border: #f4f4f4 3px solid !important;
+}
+
+.section-follow {
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+.section-follow .fa-4x {
+    margin: 5px 10px;
 }
 
 .autocomplete-content {
