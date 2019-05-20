@@ -2,4 +2,4 @@
 
 ### Create Landing about Travel on materialize.css
 
-Demo: http://185.228.232.41/projects/travelville
+Demo: http://193.187.174.213/projects/travelville
